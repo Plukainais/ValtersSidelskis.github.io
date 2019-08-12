@@ -1,0 +1,70 @@
+body {
+
+}
+.table{
+width: 1400px;
+}
+.thead td{
+    border: 1px solid black;
+}
+.thead th{
+    border: 1px solid black;
+}
+.tbody{
+}
+img{
+ float: right;   
+}
+.big .horse{
+
+}
+
+.table{
+}
+img{
+}
+.form{
+}
+.select{
+}
+textarea{
+}
+.button{
+}
+a{
+}
+ol{
+}
+.list{
+}
+.big{
+    font-size: 36px;
+}
+ul{
+    background-color:blueviolet;
+}
+input{
+    border: 2px solid black;
+}
+option{
+    color:red;
+}
+label{
+    background: salmon;
+}
+.aa:hover{
+color: white;
+text-decoration: none;
+}
+.bb:visited{
+    color: green;
+}
+
+tr {
+    background-color:blue
+}
+ul :first-child {
+    text-align: right;
+    color: chartreuse;
+
+}

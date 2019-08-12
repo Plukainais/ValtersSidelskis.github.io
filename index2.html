@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-<table width="1400">
-<thead>
-    <style>
-    table td {border: 1px solid black}
-    table th {border: 1px solid black}
-    </style>
+            <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+<table class="table">
+<thead class="thead">
     <tr>
         <th rowspan="3">Day</th>
         <th colspan="3">Weekly schedule</th>
@@ -20,7 +19,7 @@
         <th>End</th>
     </tr>
 </thead>
-<tbody>
+<tbody class="tbody">
     <tr>
         <td rowspan="2">Monday</td>
         <td rowspan="2">8AM</td>
@@ -31,49 +30,50 @@
         <td>Setup</td>
     </tr>
     <tr>
-        <td rowspan="3">Tuesday</td>
+        <td rowspan="4">Tuesday</td>
         <td>8AM</td>
         <td>11AM</td>
         <td rowspan="2">Git basics</td>
     </tr>
     <tr>
-        <td>11AM</td>
-        <td>2PM</td>
+        <td rowspan="2">11AM</td>
+        <td rowspan="2">2PM</td>
+    </tr>
+    <tr>
+        <td rowspan="2">HTML tags</td>
     </tr>
     <tr>
         <td>2PM</td>
         <td>5PM</td>
-        <td>HTML tags</td>
     </tr>
     <tr>
         <td>Wednesday</td>
-        <td>8PM</td>
+        <td class="tabula">8PM</td>
         <td>12PM</td>
-        <td rowspan="2">HTML atributes</td>
-        
+        <td>HTML atributes</td>
     </tr>
 </tbody>
 </table>
-<p><img src="https://ichef.bbci.co.uk/news/660/cpsprodpb/E9DF/production/_96317895_gettyimages-164067218.jpg" alt="not found" align="right"><img src="" alt="image that can't be loaded" align="right"></p>
-<form>
+<img src="https://ichef.bbci.co.uk/news/660/cpsprodpb/E9DF/production/_96317895_gettyimages-164067218.jpg" alt="not found" style="align:right;"><img src="" alt="image that can't be loaded">
+<form class="form">
     <label for="name">First name</label>
     <input id="name"/>
 </form>
-<form>
+<form class="form">
     <label for="Surname">Last name</label>
     <input id="Surname">
 </form>
-<form>
+<form class="form">
     <label for="email">Email</label>
     <input placeholder="email@gmail.com">
 </form>
-<form>
+<form class="form">
     <label for="number">Age</label>
     <input type="number" min="1" max="120">
 </form>
 
 Country
-<select>
+<select class="select">
     <option></option>
     <option value="Latvia">Latvia</option>
     <option value="Canada">Canada</option>
@@ -82,7 +82,7 @@ Country
 </select>
 <br>
 Description
-<textarea maxlength="50">
+<textarea class="textarea" maxlength="50">
 </textarea>
 <br>
 I am enjoying this:
@@ -91,25 +91,25 @@ Yes <input type="radio" name="poga" value="yes">
 No <input type ="radio" name="poga" value="false">
 </input>
 <br>
-<button type="button">Save</button>
+<button class="button" type="button">Save</button>
 <br>
-<a href="#top">inner</a>
+<a class="links aa" href="#top">inner</a>
 <br>
-<a target="blank" rel="noopener noreferrer" href="http://google.lv">in new tab</a>
-<ol>
+<a class="links bb" target="blank" rel="noopener noreferrer" href="http://google.lv">in new tab</a>
+<ol class="list">
     <ul style="list-style-type:disc;">
     
     Not ordered list 1st item
     </ul>
-                <li>Ordered list 1st item</li>
-                <li>Ordered list 2nd item</li>
+                <li class="big horse">Ordered list 1st item</li>
+                <li class="big horse">Ordered list 2nd item</li>
                 
 <br>
     <ul style="list-style-type:disc;">
             Not ordered list 2nd item </ul>
     
     <ul>
-    <li>Don't forget to push to github</li>
+    <li class="huge text">Don't forget to push to github</li>
     </ul>
     </ol>
     <h4><a id="top">Hello</a></h4>
