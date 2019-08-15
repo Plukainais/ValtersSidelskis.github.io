@@ -49,14 +49,14 @@ ul{
    top: 70px;
 }
 form{
-   background-color: #feb47b;
+   background-color: #EDEDED;
    max-width: 976px;
    margin-left: auto;
    margin-right: auto;
 }
 button{
    color: white;
-   background: linear-gradient(to left, #c31432,#240b36);
+   background: linear-gradient(to left, #36D1DC, #5B86E5);
    border: 0px;
    padding: 7px 10px;
    border-radius: 5px;
@@ -65,4 +65,33 @@ button{
 .row{
    display: flex;
    flex-direction:row;
+}
+.title{
+   text-align: center;
+   padding: 20px;
+   background-color: #d9d9d9;
+   border-radius: 5px;
+}
+.form_title{
+   border-radius: 5px;
+}
+table{
+   border-collapse: collapse;
+}
+
+.thead th{
+   border-radius: 5px;
+   text-align: left;
+   background-color: darkblue;
+   color: #FFF;
+   padding: 4px 30px 4px 8px;
+}
+.tbody td{
+   border-radius: 5px;
+   border: 1px solid greenyellow;
+   padding: 4px 8px;
+}
+table tr:nth-child(odd) td{
+   border-radius: 5px;
+   background-color: khaki;
 }
