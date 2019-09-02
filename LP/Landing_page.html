@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="LP.css">
+  <title>Document</title>
+</head>
+<body>
+  <div id="sidebar">
+    <form class="form">
+      <div class="form_div">
+        <label class="space-top" for="username">Username:
+        <input type="username" name="name" id="username" required>
+        </label>
+      
+      <label class="space-top" for="email">Email:
+      <input type="email" name="email" id="emails" required>
+        </label>
+       <div class="row space-top">
+        <label for="checkbox">Send me special deals:</label>
+        <input type="checkbox" name="checkbox" id="checkbox" onclick="checked">
+        </div>
+        <div id="selectDiv">
+          <p>I'm willing to receive them every:</p>
+        <select id="offer">
+          <option>Hour</option>
+          <option>Day</option>
+          <option>Week</option>
+          <option>Month</option>
+        </select>
+        </div>
+      <button class="subscribe space-top" onclick="myFunction()">Accept</button>
+      </div>
+    </form>
+      <button id="toggle-button" onclick="toggleSidebar()">Open form</button>
+       
+    </div>
+  
+<div class="tablediv" id="tablediv">
+        <table id="table">
+            <thead class="thead">
+                <tr>
+                    <th>#</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Special offers</th>
+                    <th>Offer cycle</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+  <script src="LP.js"></script>
+</body>
+</html>
